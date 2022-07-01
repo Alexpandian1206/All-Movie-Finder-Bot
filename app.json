@@ -70,6 +70,16 @@
             "description": "Set the default image for results",
             "value": "",
             "required": false
+        },
+        "CHANNELS":{
+            "description": "Set True if you want to save posts from channels",
+            "value": "",
+            "required": false
+        },
+        "CHANNELS_LIST":{
+            "description": "List of your channel id to save posts to db. Separate each by space. Ex: -100xx -100YYY ",
+            "value": "",
+            "required": false
         }
     },
     "addons": [],
