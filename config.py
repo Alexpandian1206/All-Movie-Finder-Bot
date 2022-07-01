@@ -1,5 +1,4 @@
 import os
-from ssl import CHANNEL_BINDING_TYPES
 
 API_ID = os.environ.get('API_ID')
 API_HASH = os.environ.get('API_HASH')
@@ -24,5 +23,4 @@ IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌�
 MAX_LIST_ELM = os.environ.get("MAX_LIST_ELM", None)
 WELCOME_IMAGE = os.environ.get('START_PIC', 'https://bit.ly/3y8miWu')
 RESULTS_IMAGE = os.environ.get('RESULTS_IMAGE', 'https://static.wikia.nocookie.net/ideas/images/e/e4/Movie_night.jpg')
-
 

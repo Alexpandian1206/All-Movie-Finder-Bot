@@ -73,6 +73,7 @@ async def cb_close_handler(c,m):
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
 async def send_spell_checker(bot, query):
+    print(query.data)
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
         return await query.answer("Search for yourself", show_alert=True)
