@@ -22,6 +22,6 @@ AUTO_DELETE = os.environ.get('AUTO_DELETE', False)
 AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 300))
 IMDB_TEMPLATE = os.environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 MAX_LIST_ELM = os.environ.get("MAX_LIST_ELM", None)
-WELCOME_IMAGE = os.environ.get('START_PIC', 'https://bit.ly/3y8miWu')
+WELCOME_IMAGE = os.environ.get('WELCOME_IMAGE', 'https://bit.ly/3y8miWu')
 RESULTS_IMAGE = os.environ.get('RESULTS_IMAGE', 'https://static.wikia.nocookie.net/ideas/images/e/e4/Movie_night.jpg')
 
