@@ -12,6 +12,7 @@ DATABASE_NAME = os.environ.get('DATABASE_NAME')
 COLLECTION_NAME = os.environ.get('COLLECTION_NAME')
 CHANNELS = os.environ.get('CHANNELS', "False")
 CHANNELS_LIST = list(int(i) for i in os.environ.get("CHANNELS_LIST", "").split(" ")) if os.environ.get("CHANNELS_LIST") else []
+FORCESUB = os.environ.get('FORCESUB', "False")
 
 # Other Settings
 UPDATE_CHANNEL =  os.environ.get('UPDATE_CHANNEL')
