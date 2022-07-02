@@ -1,11 +1,11 @@
 {
-    "name": "Droplink-Movie-Finder",
-    "description": "Droplink Movie Finder",
+    "name": "All-Movie-Finder-Bot",
+    "description": "All-Movie-Finder-Bot",
     "keywords": [
         "telegram"
     ],
-    "website": "https://github.com/kevinnadar22/Droplink-Movie-Finder",
-    "repository": "https://github.com/kevinnadar22/Droplink-Movie-Finder",
+    "website": "https://github.com/kevinnadar22/All-Movie-Finder-Bot",
+    "repository": "https://github.com/kevinnadar22/All-Movie-Finder-Bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token",
