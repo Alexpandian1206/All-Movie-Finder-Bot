@@ -80,6 +80,11 @@
             "description": "List of your channel id to save posts to db. Separate each by space. Ex: -100xx -100YYY ",
             "value": "",
             "required": false
+        },
+        "FORCESUB":{
+            "description": "Set true if you want to force subscriptions.",
+            "value": "False",
+            "required": false
         }
     },
     "addons": [],
