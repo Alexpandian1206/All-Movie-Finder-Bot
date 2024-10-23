@@ -1,7 +1,7 @@
 aiohttp==3.10.10
 beautifulsoup4==4.12.3
 bs4==0.0.1
-IMDbPY==2023.4.1
+IMDbPY==2022.7.9
 pymongo==4.8.0
 Pyrogram==2.1.26
 requests==2.31.0
