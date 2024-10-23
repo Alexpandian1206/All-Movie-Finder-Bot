@@ -7,9 +7,9 @@ OWNER_ID = int(os.environ.get("OWNER_ID" ""))
 ADMINS = list(int(i) for i in os.environ.get("ADMINS", "").split(" ")) if os.environ.get("ADMINS") else []
 if OWNER_ID not in ADMINS:
     ADMINS.append(OWNER_ID)
-MONGODB = os.environ.get('MONGODB' "")
-DATABASE_NAME = os.environ.get('DATABASE_NAME', "") 
-COLLECTION_NAME = os.environ.get('COLLECTION_NAME' "")
+MONGODB = os.environ.get('MONGODB' "mongodb+srv://Alex1206:Alex1206@cluster0.itfqj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = os.environ.get('DATABASE_NAME', "Cluster0") 
+COLLECTION_NAME = os.environ.get('COLLECTION_NAME' "myfiles")
 CHANNELS = os.environ.get('CHANNELS', "True")
 CHANNELS_LIST = list(int(i) for i in os.environ.get("CHANNELS_LIST", "").split(" ")) if os.environ.get("CHANNELS_LIST") else []
 FORCESUB = os.environ.get('FORCESUB', "True")
