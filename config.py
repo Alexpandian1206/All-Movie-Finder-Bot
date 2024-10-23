@@ -2,16 +2,16 @@ import os
 
 API_ID = os.environ.get('API_ID', "11450835")
 API_HASH = os.environ.get('API_HASH', "0fadb61feae6ccf016932823bbf1565c")
-BOT_TOKEN = os.environ.get('BOT_TOKEN', "")
-OWNER_ID = int(os.environ.get("OWNER_ID" ""))
-ADMINS = list(int(i) for i in os.environ.get("ADMINS", "").split(" ")) if os.environ.get("ADMINS") else []
+BOT_TOKEN = os.environ.get('BOT_TOKEN', "5781009864:AAEdWzhoffBvdLcQBY4WQKpzuMYpDCAFm28")
+OWNER_ID = int(os.environ.get("OWNER_ID" "1254785184"))
+ADMINS = list(int(i) for i in os.environ.get("ADMINS", "1254785184").split(" ")) if os.environ.get("ADMINS") else []
 if OWNER_ID not in ADMINS:
     ADMINS.append(OWNER_ID)
 MONGODB = os.environ.get('MONGODB' "mongodb+srv://Alex1206:Alex1206@cluster0.itfqj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = os.environ.get('DATABASE_NAME', "Cluster0") 
 COLLECTION_NAME = os.environ.get('COLLECTION_NAME' "myfiles")
 CHANNELS = os.environ.get('CHANNELS', "True")
-CHANNELS_LIST = list(int(i) for i in os.environ.get("CHANNELS_LIST", "").split(" ")) if os.environ.get("CHANNELS_LIST") else []
+CHANNELS_LIST = list(int(i) for i in os.environ.get("CHANNELS_LIST", "-1002494518188").split(" ")) if os.environ.get("CHANNELS_LIST") else []
 FORCESUB = os.environ.get('FORCESUB', "True")
 
 # Other Settings
