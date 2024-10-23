@@ -5,5 +5,4 @@ import ssl
 URI = MONGODB
 db = pymongo.MongoClient(URI, tls=True, tlsAllowInvalidCertificates=True)
 client = db[DATABASE_NAME]
-collection = client[COLLECTION_NAME]
-
+collection = client[COLLECTION_NAME]  # Fixed typo
