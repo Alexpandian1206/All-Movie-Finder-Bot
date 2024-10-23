@@ -13,6 +13,7 @@ COLLECTION_NAME = os.environ.get('COLLECTION_NAME', "myfiles")
 CHANNELS = os.environ.get('CHANNELS', "True")
 CHANNELS_LIST = list(int(i) for i in os.environ.get("CHANNELS_LIST", "-1002494518188").split(" ")) if os.environ.get("CHANNELS_LIST") else []
 FORCESUB = os.environ.get('FORCESUB', "True")
+PORT = int(os.environ.get('PORT', 8080))
 
 # Other Settings
 UPDATE_CHANNEL =  os.environ.get('UPDATE_CHANNEL' "-1001627812746")
