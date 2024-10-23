@@ -7,3 +7,4 @@ Pyrogram==2.0.106
 requests==2.31.0
 TgCrypto==1.2.3
 dnspython==2.4.2
+gunicorn
