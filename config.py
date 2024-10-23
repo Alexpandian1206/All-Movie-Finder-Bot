@@ -3,7 +3,7 @@ import os
 API_ID = os.environ.get('API_ID', "11450835")
 API_HASH = os.environ.get('API_HASH', "0fadb61feae6ccf016932823bbf1565c")
 BOT_TOKEN = os.environ.get('BOT_TOKEN', "5781009864:AAEdWzhoffBvdLcQBY4WQKpzuMYpDCAFm28")
-OWNER_ID = int(os.environ.get("OWNER_ID" "1254785184"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1254785184"))
 ADMINS = list(int(i) for i in os.environ.get("ADMINS", "1254785184").split(" ")) if os.environ.get("ADMINS") else []
 if OWNER_ID not in ADMINS:
     ADMINS.append(OWNER_ID)
