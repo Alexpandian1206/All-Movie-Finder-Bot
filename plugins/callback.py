@@ -2,7 +2,7 @@ import re
 from pyrogram import Client, filters
 from .database import collection
 from bson.objectid import ObjectId
-from config import *
+from config import USERNAME, ADMINS
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from helpers.get_movie import get_movies
 from helpers.get_movie import BUTTONS
