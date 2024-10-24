@@ -16,7 +16,7 @@ FORCESUB = os.environ.get('FORCESUB', "True")
 PORT = int(os.environ.get('PORT', 8080))
 
 # Other Settings
-UPDATE_CHANNEL =  os.environ.get('UPDATE_CHANNEL' "Aklinksz")
+UPDATE_CHANNEL =  os.environ.get('UPDATE_CHANNEL', "Aklinksz")
 USERNAME = UPDATE_CHANNEL
 RESULTS_COUNT = int(os.environ.get('RESULT_COUNTS', 10))
 AUTO_DELETE = os.environ.get('AUTO_DELETE', True)
